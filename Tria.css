@@ -5,7 +5,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
-    background-image: url("Full-HD-Nature-Backgrounds-free-windows.jpg");
+   background-image: url("Full-HD-Nature-Backgrounds-free-windows.jpg");
     background-repeat:no-repeat;
     background-size: cover;
 
@@ -81,7 +81,14 @@ span{
 /* .full span{
     background-color: inherit;
 } */
-
+div ul, ol{
+background-color:black;
+margin:50px;
+color:white;
+line-height:30px;
+font-weight:600;
+font-size:22px;
+}
 
 footer{
     margin: 30px;
