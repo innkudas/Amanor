@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url("Full-HD-Nature-Backgrounds-free-windows.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+
+    min-height:100vh;
+    display: flex;
+    /* flex-wrap: wrap-reverse; */
+    flex-flow: column wrap;
+}
+.build{
+    height: 100px;
+    background-color: teal;
+    transition: height 5s;
+    transition-delay: 1s;
+    /*transition; property duration timing-function delay*/
+    transition-timing-function: ease-in;
+}
+.build:hover{
+    height: 300px;
+}
+.career{
+    height: 500px;
+    background-image: url("Full-HD-Nature-Backgrounds-free-windows.jpg");
+    background-position:center;
+    background-size: cover;
+    /* */
+    animation-name: haha;
+    animation-duration: 15s;
+    /* animation-iteration-count: infinite; */
+    animation-delay: 2s;
+    animation-direction:alternate;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    /* animation-play-state: paused; */
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+@keyframes haha {
+    0% {background-image: url("Nature-amazing-wallpaper-HD-picture.jpg");}
+    25% {background-image: url("f144eacb551b140a1746b6c96a222103.jpg");}
+    50% {background-image: url("Picture-Nature-amazing-wallpapers-HD.jpg");}
+    75% {background-image: url("Best-Nature-Full-HD-Images.jpg");}
+    100%{background-image:url("Picture-Nature-amazing-wallpapers-HD.jpg");}
+}
+.moments input{
+    padding: 10px;
+    width: 50px;
+    transition: width 2s;
+    transition-delay: 1s;
+}
+.moments  input:focus{
+    width: 200px;
+}
+
+p{
+    font-size: 20px;
+    margin: 30px;
+    padding: 30px;
+    background-color: goldenrod;
+    /* line-height:70px; */
+    /* line-break: 100px; */
+}
+/* @media(min-width:800px){
+    .build{
+        flex:100%;
+    }
+} */
+
+span{
+    background-color: red;
+}
+.full{
+    background-color: initial;
+}
+/* .full span{
+    background-color: inherit;
+} */
+
+
+footer{
+    margin: 30px;
+    padding: 30px;
+    font-size: 20px;
+    background-image: url("Nature-Sea-wallpaper-Full-HD-free-desktop.jpg");
+    background-attachment: scroll;
+    background-size: cover;
+    /* background-position: center; */
+    /* background-repeat: space; */
+    margin-top: auto;
+}
