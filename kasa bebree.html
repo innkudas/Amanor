@@ -4,8 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kudas Git</title>
+    <style>
+        body{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 1.5em;
+            background-color: rgba(0, 0, 0, 0.9);
+            color: white;
+            /* display: flex;
+            flex-direction: column;
+            width: max-content; */
+            gap: 20px;
+        }
+        abbr{
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
+
+    <abbr title="Ghana Senior High School">Ghanass</abbr>
+    <address>Koforidua Adweso<br>0200725341</address>
+    <!-- <canvas id="myCanvas" width="200px" height="200px">sd</canvas> -->
+
+    <label for="course">Course</label>
+    <input type="text" name="course" id="course" list="courseOutline"><br>
+    <datalist id="courseOutline">
+        <option value="Algorithm">Algorithm</option>
+        <option value="Web Development">Web Development</option>
+        <option value="Software Development">Software Development</option>
+        <option value="Data Science">Data Science</option>
+    </datalist>
+
+    <label for="continent">Continents</label>
+    <select name="continent" id="continent">
+        <option value="Africa">Africa</option>
+        <option value="Asia">Asia</option>
+        <option value="Australia">Australia</option>
+        <option value="Europe">Europe</option>
+        <option value="North America">Noth America</option>
+        <option value="South America">South America</option>
+    </select>
+
+    <details style="background-color: rgb(43, 68, 68);">
+        <summary>Find me</summary>
+        <p >I am not ready yet</p>
+    </details>
+
+    <!-- <dialog open><pre>Yes, I am HTMLing</pre></dialog> -->
+
+    <figure>
+        <img src="f144eacb551b140a1746b6c96a222103.jpg" alt="My image" height="180px" width="180px">
+        <figcaption><pre>Boobs</pre></figcaption>
+    </figure>
+
+    <kbd>Alt + F4</kbd><br>
     
+    <map name="African Map"><area shape="rect" coords="0,0,10,10" href="#" alt="Full Map"></map><br>
+
+    <meter value="88" min="0" max="100"></meter><br>
+    
+    <progress value="91" max="100" min="0"></progress><br>
+
+    <script src="Trial.js"></script>
+
 </body>
 </html>
